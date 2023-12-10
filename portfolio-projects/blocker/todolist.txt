@@ -1,0 +1,62 @@
+TODOLIST
+- DONE Create virtual environment, install django and create project
+- DONE Base pages /templates
+    - DONE Create app for pages
+    - DONE Create base template
+    - DONE Create front page
+    - DONE Create about page
+- DONE Authentification
+    - DONE Create database model for userprofile
+    - DONE Make it possible to sign up
+    - DONE Make it possible to log in
+    - DONE Make it possible to log out
+- DONE Simple dashboard
+- Create new leads
+    - DONE New django app
+    - DONE Database models
+    - DONE Views/forms for leads
+    - DONE List of leads
+    - DONE View detail for leads
+- DONE Change and delete leads
+- DONE Convert leads to clients
+- DONE List of clients
+- DONE Detail page of clients
+- DONE Change and delete clients
+- DONE View for adding clients
+- Implement solution for teams
+    - DONE Create teams app
+    - DONE Database model for teams
+    - DONE Setting team when creating a lead
+    - DONE Setting team when creating a client
+    - Create new teams
+    - Invite users
+    - Being a member of the team
+    - DONE If you're not a member of a team, create a team
+    - DONE If you're the owner, make it possible to edit the team
+    - DONE Limit number of leads
+    - DONE Limit number of clients
+- DONE Refactoring
+    - DONE Install Tailwind instead of using CDN
+    - DONE Add name spaces to all of the apps
+    - DONE Replace the leads list with a class based view
+    - DONE Replace the leads detail with a class based view
+    - DONE Replace the leads delete with a class based view
+    - DONE Replace the leads edit with a class based view
+    - DONE Replace the leads add with a class based view
+        - DONE And give it a better name
+    - DONE Replace the leads convert with a class based view
+- DONE Add comments to leads and clients
+- DONE Upload files to leads and clients
+- DONE Export information (leads, clients)
+- DONE Replace dispatch with loginrequiredmixin
+- DONE Show active team on menu
+- DONE Team detail page with members list
+- DONE Clean up base.html with includes
+- DONE Fix styling for login and sign up
+- DONE Make it possible to switch team
+- DONE Replace hardcoded team selector
+- Implement a payment solution / Monthly recurring payments (Dj-stripe)
+- Autofocus on field when editing
+- Fix footer styling
+- On Chrome: bg-emerald-100 doesn't apply on active team in http://127.0.0.1:8000/dashboard/teams/
+- Deploy
